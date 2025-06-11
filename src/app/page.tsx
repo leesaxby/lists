@@ -10,14 +10,8 @@ export default async function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
         <div className={styles.ctas}>
-          Lists
-          {
-            session ? (
-              <SignOut />
-            ) : (
-              <SignIn />              
-            )
-          }
+            <SignOut />
+            <SignIn />              
         </div>
       </main>
     </div>
