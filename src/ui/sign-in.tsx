@@ -6,7 +6,7 @@ export default function SignIn() {
       action={async () => {
         "use server"
         await signIn("auth0", {
-          redirectTo: '/',
+          redirectTo: '/lists',
         })
       }}
     >
